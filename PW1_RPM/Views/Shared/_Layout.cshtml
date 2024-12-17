@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Интернет-магазин</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>Интернет-магазин</h1>
+    </header>
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/Catalog">Каталог</a>
+        <a href="/Catalog/Cart">Корзина</a>
+        <a href="/PrivacyPolicy">Политика конфиденциальности</a>
+    </nav>
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>
